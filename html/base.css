@@ -1,0 +1,202 @@
+body {
+	background-color: #ffffff;
+	text-align: center; /*Centers wrapper in IE*/
+	color: black;
+	font-size: 14px;
+	font-family: Arial, "sans-serif";
+	line-height:  22px;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.wrapper {
+
+	 width: 760px;
+	 margin: 0 auto; /*Centers wrapper in FF*/
+
+	
+}
+
+.masthead {
+	background-color: #ffffff;
+	background-image: url("images/header.gif");
+	background-repeat: no-repeat;
+	color: #000000;
+	font-size: 34px;
+	font-weight: bold;
+	height: 135px;
+}
+
+
+.contactBar {
+	height: 17px;
+	font-size: 13px;
+	text-align: right;
+	width: 100%;	
+}
+
+.contactBar span {
+	margin-left: 30px;
+}
+
+.titleBar {
+
+	background-color: #c90000;
+	color: white;
+	text-align: right;
+	margin-top: 5px;
+	padding: 2px;
+	padding-right: 8px;
+	font-size: 16px;
+
+}
+
+.content {
+	float: left;
+	width: 100%;
+	background-color: white;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+	.navigation {
+		float: left;
+		width: 79px;
+		height: 900px;
+		
+		padding-bottom: 20px;
+		font-size: 16px;
+		
+	}
+		
+		.navigation ul {
+			height: 143px;
+			border-right: 1px dotted #c90000;
+			}
+	
+		.navigation li{
+			padding-top: 20px;
+			
+			padding-right: 10px;
+			list-style-type: none;
+			text-align: right;
+			
+			
+		}
+		
+		.navigation li a {
+			color: red;
+		}
+
+	.mainContent {
+		float: left;
+		width: 670px;
+		
+		background-color: white;
+		color: black;
+		
+		text-align: left;
+		
+		margin-left: 5px;
+		display: inline;
+		
+	}
+
+		.mainContent p {
+			
+			padding:18px 5px 0px 5px;
+			
+			
+		}
+		
+		/*   <p> tag before outside links	*/
+		.seperator {	
+
+			border-top: dashed 1px black;
+			
+			padding-top: 10px;
+	
+		}
+		.mainContent a {
+			color: #c90000;
+			
+		}
+		
+		.mainContent a:hover {
+			text-decoration: underline;
+		}
+		
+		
+		.aboutImage {
+			float: right;
+			width: 322px;
+			padding: 4px;		
+			border: 1px solid black;
+				
+			display: inline;
+			margin: 0px 0px 0px 5px;
+		}
+		
+		
+.footer {
+	
+	border-top: 1px solid #c90000;
+	padding: 4px;
+	height: 40px;
+	width: 100%;
+	clear: both;
+
+
+
+	
+}
+
+	.footer a {
+		color: red;
+		
+	}
+	
+	.footer a:hover {
+		text-decoration: underline;
+	}
+		
+
+	
+	
+/* Contact Elements */
+
+.contact {
+	float: left;
+}
+
+.contact h2 {
+	margin: 20px 0px 0px 10px;
+}
+
+.contact ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 40px;
+
+}
+
+.contact a {
+	color: black;
+	text-decoration: none;
+	line-height: 24px;
+	
+}
+
+.contact a:hover {
+	text-decoration: none;
+}
